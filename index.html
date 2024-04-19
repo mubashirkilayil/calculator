@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="mainbody">
+        <div class="inputval">
+            <input type="text" id="screen">
+        </div>
+        <button onclick="clr()" id="clrbtn">Clr</button>
+        <div class="buttons">
+            <div class="row">
+                <button onclick="valRead(7)">7</button>
+                <button onclick="valRead(8)">8</button>
+                <button onclick="valRead(9)">9</button>
+                <button onclick="valRead('/')">/</button>
+            </div>
+            <div class="row">
+                <button onclick="valRead(4)">4</button>
+                <button onclick="valRead(5)">5</button>
+                <button onclick="valRead(6)">6</button>
+                <button onclick="valRead('*')">*</button>
+            </div>
+            <div class="row">
+                <button onclick="valRead(1)">1</button>
+                <button onclick="valRead(2)">2</button>
+                <button onclick="valRead(3)">3</button>
+                <button onclick="valRead('+')">+</button>
+            </div>
+            <div class="row">
+                <button onclick="valRead('-')">-</button>
+                <button onclick="valRead(0)">0</button>
+                <button onclick="valRead('.')">.</button>
+                <button onclick="equalClick()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

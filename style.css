@@ -1,0 +1,38 @@
+.mainbody{
+    margin: 0px;
+    padding: 0px;
+    width: 30%;
+    height: 500px;
+    background: #5a5a5a;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+button{
+    width: 98px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: #5a5a5a;
+    font-size: large;
+}
+input{
+    margin-top: 20px;
+    margin-left: 22px;
+    height: 70px;
+    width: 88%;
+    pointer-events: none;
+}
+.mainbody .buttons{
+    padding: 10px;
+}
+.row{
+    padding: 10px
+}
+#clrbtn{
+    margin-top: 13px;
+    margin-left: 25px;
+    color: crimson;
+}
+#screen{
+    font-size: 28px;
+    font-weight: 600;
+}
